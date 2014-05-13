@@ -1,0 +1,17 @@
+{
+  "name": "home",
+  "version": "0.0.1",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-scss": "~3.0.0",
+    "jquery": "~1.11.1"
+  },
+  "devDependencies": {}
+}

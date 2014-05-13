@@ -1,0 +1,66 @@
+
+/* Home
+   ========================================================================== */
+
+.section {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 2px 2px #DED6CC;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.section-title {
+  border-bottom: 1px dotted #EAE2D7;
+  color: #E61052;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.section-content {
+  color: #97866F;
+  font-size: 12px;
+  padding: 20px;
+}
+
+.section-content a {
+  color: #97866F;
+  text-decoration: none;
+}
+
+.section-content a:hover {
+  text-decoration: underline;
+}
+
+.section-links ul {
+  margin: 0;
+  padding: 0;
+}
+
+.section-links ul li {
+  display: block;
+  display: inline;
+  list-style:none;
+  margin-right: 10px;
+}
+
+.section-links ul li img {
+  vertical-align: middle;
+  margin-right: 7px;
+}
+
+.section-items ul {
+  list-style-image: url('../img/home/arrow.gif');
+  margin: 0 0 0 20px;
+  padding: 0;
+  line-height: 2em;
+}
+
+.section-items ul li {
+  padding-left: 5px;
+}
+
+.bold {
+  font-weight: bold;
+}

@@ -1,0 +1,13 @@
+{
+  "generator-xh": {
+    "config": {
+      "projectName": "Home",
+      "useBranding": false,
+      "cssPreprocessor": "SCSS",
+      "isWP": false,
+      "features": [
+        "useCSS3Pie"
+      ]
+    }
+  }
+}
