@@ -8,12 +8,15 @@
   <meta charset="utf-8">
   <title>Home - Home</title>
   <link rel="stylesheet" media="all" href="css/main.css">
+  <link rel="stylesheet" href="../src/bower_components/colorbox/example1/colorbox.css" />
   <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
   <script>
     document.documentElement.className = document.documentElement.className.replace(/(\s|^)no-js(\s|$)/, '');
   </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="../src/bower_components/colorbox/jquery.colorbox.js"></script>
 </head>
 
 
@@ -32,13 +35,74 @@
 
 
     <div class="container">
-      <div class="content" id="content">
-        <p></p>
+      <div class="content section" id="content">
+        <div class="article-area">
+          <div class="article-section-title article-section-title-left-radius">X-PLOSION PRODUCTS</div>
+          <div class="spacer spacer-left"></div>
+          <div class="article-section article-section-border">
+            <div class="article-title">We say NO to artificial flavours</div>
+            <div class="article-body">
+              <a class="group1" href="img/home/sample1.png">
+                <img src="img/home/sample1.png" alt="">
+              </a>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lobortis justo nunc, eget viverra dolor pulvinar eget. In sit amet libero id nisl eleifend sodales.
+              <br />
+              <br />
+              <a href="#" class="article-more">More</a>
+            </div>
+          </div>
+          <div class="article-section article-section-border">
+            <div class="article-title">New flavour added</div>
+            <div class="article-body">
+              <a class="group1" href="img/home/sample2.png">
+                <img src="img/home/sample2.png" alt="">
+              </a>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lobortis justo nunc, eget viverra dolor pulvinar eget. In sit amet libero id nisl eleifend sodales.
+              <br />
+              <br />
+              <a href="#" class="article-more">More</a>
+            </div>
+          </div>
+        </div>
+        <div class="article-area">
+          <div class="article-section-title  article-section-title-right-radius">X-PLOSION EXPANSION</div>
+          <div class="spacer"></div>
+          <div class="article-section">
+            <div class="article-title">X-Plosion is a hit in Japan</div>
+            <div class="article-body">
+              <a class="group1" href="img/home/sample4.png">
+                <img src="img/home/sample4.png" alt="">
+              </a>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lobortis justo nunc, eget viverra dolor pulvinar eget. In sit amet libero id nisl eleifend sodales.
+              <br />
+              <br />
+              <a href="#" class="article-more">More</a>
+            </div>
+          </div>
+          <div class="article-section">
+            <div class="article-title">Danish elder hooked on X-Plosion</div>
+            <div class="article-body">
+              <a class="group1" href="img/home/sample3.png">
+                <img src="img/home/sample3.png" alt="">
+              </a>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lobortis justo nunc, eget viverra dolor pulvinar eget. In sit amet libero id nisl eleifend sodales.
+              <br />
+              <br />
+              <a href="#" class="article-more">More</a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
+    <script>
+      jQuery('a.group1').colorbox({
+        opacity: 0.5,
+        rel: 'group1'
+      });
+    </script>
 
     <aside class="sidebar">
-      <div class="section">
+      <div class="section section-width">
         <div class="section-title">FOLLOW US</div>
         <div class="section-content section-links">
           <ul>
@@ -57,7 +121,7 @@
           </ul>
         </div>
       </div>
-      <div class="section">
+      <div class="section section-width">
         <div class="section-title">RANDOMLY SELECTED</div>
         <div class="section-content section-items">
           <ul>
@@ -74,7 +138,7 @@
           </ul>
         </div>
       </div>
-      <div class="section">
+      <div class="section section-width">
         <div class="section-title">WHERE YOU CAN FIND US?</div>
         <div class="section-content">
           <span class="bold">X-Plosion Ltd.</span>

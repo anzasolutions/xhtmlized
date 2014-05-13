@@ -2,15 +2,22 @@
 /* Home
    ========================================================================== */
 
+aside {
+  float: left;
+}
+   
 .section {
   background-color: #FFFFFF;
   box-shadow: 2px 2px #DED6CC;
-  width: 300px;
   margin-bottom: 20px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
   behavior: url('vendor/pie/PIE.htc');
+}
+   
+.section-width {
+  width: 300px;
 }
 
 .section-title {
@@ -67,3 +74,85 @@
 .bold {
   font-weight: bold;
 }
+
+/* News section */
+
+.content {
+  float: left;
+  margin-right: 20px;
+  width: 640px;
+  font-size: 14px;
+}
+
+.article-section {
+  padding: 20px;
+}
+
+.article-section-border {
+  border-right: 1px dotted #d9cbb6;
+}
+
+.article-area {
+  float: left;
+  width: 50%;
+}
+
+.article-section-title {
+  background-color: #E61052;
+  box-shadow: 0 2px #E5E5E5;
+  color: #FFFFFF;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.article-section-title-left-radius {
+  border-right: 1px dotted #f388a9;
+  -webkit-border-radius: 10px 0px 0px;
+  -moz-border-radius: 10px 0px 0px;
+  border-radius: 10px 0px 0px;
+  behavior: url('vendor/pie/PIE.htc');
+}
+
+.article-section-title-right-radius {
+  -webkit-border-radius: 0px 10px 0px 0px;
+  -moz-border-radius: 0px 10px 0px 0px;
+  border-radius: 0px 10px 0px 0px;
+  behavior: url('vendor/pie/PIE.htc');
+}
+
+.spacer {
+  height: 20px;
+}
+
+.spacer-left {
+  border-right: 1px dotted #d9cbb6;
+}
+
+.article-title {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.article-body {
+  color: #97866F;
+  font-size: 12px;
+  line-height: 150%;
+}
+
+.article-body img {
+  border: 1px solid #EAE1D4;
+  float: left;
+  margin-bottom: 40px;
+  margin-right: 20px;
+  padding: 2px;
+}
+
+.article-more {
+  background-image: url("../img/home/arrow-more.gif");
+  background-position: 3em center;
+  background-repeat: no-repeat;
+  color: #E61052;
+  padding-right: 20px;
+  text-decoration: none;
+}
+
