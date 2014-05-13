@@ -2,7 +2,7 @@
 
     Project: Home
     Author: 
-    Last updated: Tue May 13 2014 21:29:23
+    Last updated: Tue May 13 2014 21:52:43
 
     1. Normalize
     2. Common
@@ -511,11 +511,12 @@ body {
 
 .section {
   background-color: #FFFFFF;
-  border-radius: 10px;
   -webkit-box-shadow: 2px 2px #DED6CC;
   box-shadow: 2px 2px #DED6CC;
   width: 300px;
   margin-bottom: 20px;
+  border-radius: 10px;
+  behavior: url("vendor/pie/PIE.htc");
 }
 
 .section-title {

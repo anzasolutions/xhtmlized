@@ -4,10 +4,13 @@
 
 .section {
   background-color: #FFFFFF;
-  border-radius: 10px;
   box-shadow: 2px 2px #DED6CC;
   width: 300px;
   margin-bottom: 20px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  behavior: url('vendor/pie/PIE.htc');
 }
 
 .section-title {
